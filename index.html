@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pong Game</title>
+    <!-- TailwindCSS via CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+  </head>
+  <body class="bg-gray-800 flex items-center justify-center h-screen">
+    <div id="pong-game" class="relative bg-black w-3/4 h-3/4">
+      <div id="ball" class="absolute bg-white w-4 h-4 rounded-full"></div>
+      <div id="paddleLeft" class="absolute bg-white w-2 h-24"></div>
+      <div id="paddleRight" class="absolute bg-white w-2 h-24"></div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
